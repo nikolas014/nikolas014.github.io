@@ -4,6 +4,7 @@
     margin: 0;
     font-family: "Open Sans";
 }
+/* HEADER */
 /* Fondo del encabezado */
 .encabezado-fondo-contenido{
     background: linear-gradient(to bottom right, rgba(58, 119, 239, .62), rgba(58, 15, 181, .3)), url("fondo.jpg");
@@ -26,13 +27,13 @@ nav{
     margin-top: 30px;
     margin-right: 150px;
 }
-a:link, a:visited, a:active {
+.nav-list a:link, .nav-list a:visited, .nav-list a:active {
     text-decoration:none;
     font-size: 16px;
     font-weight: normal;
     color: #fff;
 }
-a:hover{
+.nav-list a:hover{
     text-decoration: underline;
     font-weight: 900;
 }
@@ -67,4 +68,34 @@ a:hover{
 .foto-persona{
     border-radius: 50%;
     width: 150px;
+}
+/* Articulo acerca de */
+.acerca-de{
+    margin-top: 105px;
+    text-align: center;
+}
+.acerca-de .titulo-description{
+    font-size: 34px;
+    font-weight: 300;
+    color: #DD820D;
+}
+.acerca-de .description{
+    font-weight: 700;
+    color: #5A5A5A;
+    margin-top: 30px;
+    display: inline-block;
+    width: 870px;
+}
+.acerca-de .description span{
+    color: #3895EA;
+}
+.acerca-de .description a {
+    font-weight: 700;
+    display: inline-block;
+    color: #3895EA;
+    text-decoration: none;
+}
+.description a:hover{
+    color: #0162b7;
+    text-decoration: underline;
 }
