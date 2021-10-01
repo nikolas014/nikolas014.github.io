@@ -1,0 +1,70 @@
+/* Estilo generales */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
+}
+/* Fondo del encabezado */
+.encabezado-fondo-contenido{
+    background: linear-gradient(to bottom right, rgba(58, 119, 239, .62), rgba(58, 15, 181, .3)), url("fondo.jpg");
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Menú de navegacion */
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    align-self: flex-end;
+    width: 301px;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+/* Cuadro central del encabezado */
+.inf-personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 342px;
+    height: 132px;
+    outline: solid 2px #fff;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 50px;
+    color: #ffffff;
+}
+.encabezado-nombre{
+    font-size: 50px;
+}
+.profesion{
+    font-size: 25px;
+}
+/* Fotografía central del encabezado */
+.foto-personal{
+    height: 150px;
+    width: 150px;
+    border: 7px solid rgba(255,255,255,.2);
+    border-radius: 50%;
+    transform: translateY(75px);
+}
+.foto-persona{
+    border-radius: 50%;
+    width: 150px;
+}
