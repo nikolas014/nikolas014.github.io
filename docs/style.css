@@ -6,7 +6,7 @@
 }
 /* HEADER */
 /* Fondo del encabezado */
-.encabezado-fondo-contenido{
+header{
     background: linear-gradient(to bottom right, rgba(58, 119, 239, .62), rgba(58, 15, 181, .3)), url("fondo.jpg");
     background-size: cover;
     height: 550px;
@@ -69,7 +69,7 @@ nav{
     border-radius: 50%;
     width: 150px;
 }
-/* Articulo acerca de */
+/* .acerca-de acerca de */
 .acerca-de{
     margin-top: 105px;
     text-align: center;
@@ -95,7 +95,7 @@ nav{
     color: #3895EA;
     text-decoration: none;
 }
-.description a:hover{
+.acerca-de .description a:hover{
     color: #0162b7;
     text-decoration: underline;
 }
