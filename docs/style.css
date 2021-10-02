@@ -69,7 +69,7 @@ nav{
     border-radius: 50%;
     width: 150px;
 }
-/* .acerca-de acerca de */
+/* Section acerca de */
 .acerca-de{
     margin-top: 105px;
     text-align: center;
@@ -89,13 +89,99 @@ nav{
 .acerca-de .description span{
     color: #3895EA;
 }
-.acerca-de .description a {
+.acerca-de .description a{
     font-weight: 700;
-    display: inline-block;
+    display: inline;
     color: #3895EA;
     text-decoration: none;
 }
 .acerca-de .description a:hover{
     color: #0162b7;
     text-decoration: underline;
+}
+/* Section Trabajos */
+.contenedor-trabajos{
+    margin-top: 198px;
+    display: inline-block;
+    height: 850px;
+    width: 100%;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+.contenedor-trabajos .titulo{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: block;
+    color: #323068;
+    font-size: 34px;
+    font-weight: 300;
+}
+.galeria-trabajos{
+    margin-top: 40px;
+    margin: auto;
+    width: 1068px;
+    height: 662px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.trabajo{
+    border-radius: 5%;
+    background-color: #D2D2D2;
+    height: 316px;
+    width: 255px;
+}
+.trabajo .imagen{
+    background-size: cover;
+    border-radius: 1%;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 235px;
+    height: 235px;
+}
+.trabajo img{
+    width: 235px;
+    height: 235px;
+}
+.trabajo h4{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #3895EA;
+    font-size: 16px;
+    font-weight: 800;
+}
+.trabajo p{
+    color: #5A5A5A;
+    font-size: 14px;
+}
+.trabajo-1 {
+    background-image: url("trabajo_1.png");
+    background-position: center;
+}
+.trabajo-2 {
+    background-image: url("trabajo_2.png");
+}
+.trabajo-3 {
+    background-image: url("trabajo_3.png");
+    background-position:center
+}
+.trabajo-4 {
+    background-image: url("trabajo_4.png");
+}
+.trabajo-5 {
+    background-image: url("trabajo_5.png");
+    background-position:center
+}
+.trabajo-6 {
+    background-image: url("trabajo_6.png");
+}
+.trabajo-7 {
+    background-image: url("trabajo_7.png");
+    background-position:center
+}
+.trabajo-8 {
+    background-image: url("trabajo_8.png");
+    background-position:center
 }
