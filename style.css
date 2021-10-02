@@ -344,3 +344,8 @@ nav{
 .redes-sociales p {
     margin-top: 50px;
 }
+@media (max-width: 1089px) {
+    body{
+      display: none;
+    }
+}
