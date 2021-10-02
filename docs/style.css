@@ -191,7 +191,7 @@ nav{
 .contacto{
     text-align: center;
     width: 660px;
-    height: 326px;
+    height: 358.2px;
     margin: auto;
 }
 .contacto h5{
@@ -292,4 +292,54 @@ nav{
     border: solid 2px #0541B8;
     border-radius: 2%;
     outline: none;
+}
+/* Section Redes Sociales */
+.redes-sociales{
+    text-align: center;
+    margin-top: 40px;
+    display: inline-block;
+    width: 100%;
+    height: 273px;
+    color: #FFFFFF;
+    background-color: #1E2B38;
+}
+.redes-sociales .margin{
+    display: block;
+    margin-top: 106px;
+}
+.iconos{
+    display: flex;
+    width: 580px;
+    margin: auto;
+    justify-content: space-between;
+}
+.iconos .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+    border-radius: 5%;
+}
+.iconos img{
+    filter: invert();
+    height: 50px;
+}
+.tw{
+    background: #55ACEE;
+}
+.fb{
+    background: #3B5998;
+}
+.yt{
+    background: #CD201F;
+}
+.ig{
+    background: #C13584;
+}
+.gh{
+    background: #666666;
+}
+.redes-sociales p {
+    margin-top: 50px;
 }
