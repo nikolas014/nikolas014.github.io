@@ -9,7 +9,8 @@
 header{
     background: linear-gradient(to bottom right, rgba(58, 119, 239, .62), rgba(58, 15, 181, .3)), url("header_img/fondo.jpg");
     background-size: cover;
-    height: 550px;
+    width: 100%;
+    height: 510px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -25,7 +26,7 @@ nav{
     align-self: flex-end;
     width: 301px;
     margin-top: 30px;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 .nav-list a:link, .nav-list a:visited, .nav-list a:active {
     text-decoration:none;
@@ -331,8 +332,8 @@ nav{
 .fb{
     background: #3B5998;
 }
-.yt{
-    background: #CD201F;
+.twtch{
+    background: #9146ff;
 }
 .ig{
     background: #C13584;
