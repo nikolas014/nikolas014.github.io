@@ -7,7 +7,7 @@
 /* HEADER */
 /* Fondo del encabezado */
 header{
-    background: linear-gradient(to bottom right, rgba(58, 119, 239, .62), rgba(58, 15, 181, .3)), url("fondo.jpg");
+    background: linear-gradient(to bottom right, rgba(58, 119, 239, .62), rgba(58, 15, 181, .3)), url("header_img/fondo.jpg");
     background-size: cover;
     height: 550px;
     display: flex;
@@ -158,32 +158,32 @@ nav{
     font-size: 14px;
 }
 .trabajo-1 {
-    background-image: url("trabajo_1.png");
+    background-image: url("trabajos_img/trabajo_1.png");
     background-position: center;
 }
 .trabajo-2 {
-    background-image: url("trabajo_2.png");
+    background-image: url("trabajos_img/trabajo_2.png");
 }
 .trabajo-3 {
-    background-image: url("trabajo_3.png");
+    background-image: url("trabajos_img/trabajo_3.png");
     background-position:center
 }
 .trabajo-4 {
-    background-image: url("trabajo_4.png");
+    background-image: url("trabajos_img/trabajo_4.png");
 }
 .trabajo-5 {
-    background-image: url("trabajo_5.png");
+    background-image: url("trabajos_img/trabajo_5.png");
     background-position:center
 }
 .trabajo-6 {
-    background-image: url("trabajo_6.png");
+    background-image: url("trabajos_img/trabajo_6.png");
 }
 .trabajo-7 {
-    background-image: url("trabajo_7.png");
+    background-image: url("trabajos_img/trabajo_7.png");
     background-position:center
 }
 .trabajo-8 {
-    background-image: url("trabajo_8.png");
+    background-image: url("trabajos_img/trabajo_8.png");
     background-position:center
 }
 /* Footer */
