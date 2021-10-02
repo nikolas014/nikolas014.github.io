@@ -105,10 +105,11 @@ nav{
 .contenedor-trabajos{
     margin-top: 198px;
     display: inline-block;
-    height: 850px;
+    height: 100%;
     width: 100%;
     background-color: #F2F2F2;
     text-align: center;
+    margin-bottom: 100px;
 }
 .contenedor-trabajos .titulo{
     margin-top: 40px;
