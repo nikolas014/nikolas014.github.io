@@ -224,13 +224,13 @@ nav{
     .contacto{
         width: 660px;
     }
-    .contacto form{
+    .contacto .form{
         justify-content: space-between;
     }
-    .contacto form textarea{
+    .contacto .form textarea{
         width: 660px;
     }
-    .contacto form textarea:focus, textarea:active, textarea:focus-visible{
+    .contacto .form textarea:focus, textarea:active, textarea:focus-visible{
         width: 660px;
     }
 }
@@ -238,15 +238,15 @@ nav{
     .contacto{
         width: 100%;
     }
-    .contacto form{
+    .contacto .form{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .contacto form textarea{
+    .contacto .form textarea{
         width: 296px;
     }
-    .contacto form input[type="email"]{
+    .contacto .form input[type="email"]{
         margin-top: 20px;
     }
 }
@@ -262,12 +262,12 @@ nav{
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.contacto form {
+.contacto .form {
     display: flex;
     flex-wrap: wrap;
 }
 /* Normal Inputs*/
-.contacto form input[type="text"], input[type="email"]{
+.contacto .form input[type="text"], input[type="email"]{
     color: #505050;
     font-size: 20px;
     font-weight: 400;
@@ -280,21 +280,21 @@ nav{
     height: 50px;
 }
 /* Focus Inputs*/
-.contacto form input[type="text"]:focus, input[type="email"]:focus{
+.contacto .form input[type="text"]:focus, input[type="email"]:focus{
     background: none;
     outline: none;
     border: solid 4px #CECECE;
     border-radius: 2%;
     height: 50px;
 }
-.contacto form input[type="text"]::placeholder, input[type="email"]::placeholder{
+.contacto .form input[type="text"]::placeholder, input[type="email"]::placeholder{
     padding-left: 12px;
     font-size: 18px;
     font-weight: 300;
     color: #A4A4A4;
 }
 /* Normal Textaria*/
-.contacto form textarea{
+.contacto .form textarea{
     color: #505050;
     font-size: 20px;
     font-weight: 400;
@@ -311,7 +311,7 @@ nav{
     margin-bottom: 20px;
 }
 /* Focus Textaria*/
-.contacto form textarea:focus, textarea:active, textarea:focus-visible{
+.contacto .form textarea:focus, textarea:active, textarea:focus-visible{
     box-shadow: none;
     background: none;
     overflow: auto;
@@ -322,7 +322,7 @@ nav{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.contacto form textarea::placeholder{
+.contacto .form textarea::placeholder{
     background: none;
     outline: none;
     padding: 12px 12px;
@@ -331,7 +331,7 @@ nav{
     color: #A4A4A4;
 }
 /* Normal boton */
-.contacto form .boton{
+.contacto .form .boton{
     border: none;
     font-family: "Open Sans";
     font-size: 20px;
@@ -343,7 +343,7 @@ nav{
     height: 50px;
 }
 /* Focus boton */
-.contacto form .boton:focus{
+.contacto .form .boton:focus{
     border: solid 2px #0541B8;
     border-radius: 2%;
     outline: none;
