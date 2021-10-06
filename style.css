@@ -22,6 +22,17 @@ header{
         align-self: flex-end;
         margin-right: 100px;
     }
+    /* .nav-list{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    } */
+    .nav-list a:link, .nav-list a:visited, .nav-list a:active{
+        text-decoration:none;
+    }
+    .nav-list a:hover{
+        text-decoration: underline;
+    }
 }
 .nav-list{
     list-style: none;
@@ -32,8 +43,7 @@ nav{
     width: 301px;
     margin-top: 30px;
 }
-.nav-list a:link, .nav-list a:visited, .nav-list a:active {
-    text-decoration:none;
+.nav-list a:link, .nav-list a:visited, .nav-list a:active{
     font-size: 16px;
     font-weight: normal;
     color: #fff;
@@ -90,6 +100,9 @@ nav{
         margin: auto;
         width: 870px;
     }
+    .acerca-de .description a{
+        text-decoration: none;
+    }
 }
 @media only screen and (max-width: 1089px){
     .description{
@@ -109,7 +122,6 @@ nav{
     font-weight: 700;
     display: inline;
     color: #3895EA;
-    text-decoration: none;
 }
 .acerca-de .description a:hover{
     color: #0162b7;
@@ -139,7 +151,7 @@ nav{
         justify-content: space-between;
     }
 }
-@media only screen and (max-width: 1089px) {
+@media only screen and (max-width: 1089px){
     .galeria-trabajos{
         width: 100%;
         height: 100%;
@@ -189,32 +201,32 @@ nav{
     color: #5A5A5A;
     font-size: 14px;
 }
-.trabajo-1 {
+.trabajo-1{
     background-image: url("trabajos_img/trabajo_1.png");
     background-position: center;
 }
-.trabajo-2 {
+.trabajo-2{
     background-image: url("trabajos_img/trabajo_2.png");
 }
-.trabajo-3 {
+.trabajo-3{
     background-image: url("trabajos_img/trabajo_3.png");
     background-position:center
 }
-.trabajo-4 {
+.trabajo-4{
     background-image: url("trabajos_img/trabajo_4.png");
 }
-.trabajo-5 {
+.trabajo-5{
     background-image: url("trabajos_img/trabajo_5.png");
     background-position:center
 }
-.trabajo-6 {
+.trabajo-6{
     background-image: url("trabajos_img/trabajo_6.png");
 }
-.trabajo-7 {
+.trabajo-7{
     background-image: url("trabajos_img/trabajo_7.png");
     background-position:center
 }
-.trabajo-8 {
+.trabajo-8{
     background-image: url("trabajos_img/trabajo_8.png");
     background-position:center
 }
@@ -262,7 +274,7 @@ nav{
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.contacto .form {
+.contacto .form{
     display: flex;
     flex-wrap: wrap;
 }
@@ -354,7 +366,7 @@ nav{
         width: 580px;
         justify-content: space-between;
     }
-    .redes-sociales p {
+    .redes-sociales p{
         margin-top: 50px;
         margin-bottom: 12px;
     }
@@ -369,7 +381,7 @@ nav{
         margin-left: 10px;
         margin-bottom: 10px;
     }
-    .redes-sociales p {
+    .redes-sociales p{
         margin-top: 1em;
         margin-bottom: 10px;
     }
@@ -390,7 +402,7 @@ nav{
     display: flex;
     margin: auto;
 }
-.iconos .icon {
+.iconos .icon{
     display: flex;
     justify-content: center;
     align-items: center;

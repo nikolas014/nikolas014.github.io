@@ -8,9 +8,12 @@ function enviar_alerta()
 {
     if (nombre.value || correo.value || mensaje.value) {
         if (nombre.value) {
-            alert(`Hola, ${nombre.value}!. \n Este formulario de contacto es solo estético`) 
+            alert(`Hola, ${nombre.value}!. \n Este formulario de contacto es solo estético \n Mis redes sociales estan al final de la página`)
+            nombre.value = ""
+            correo.value = ""
+            mensaje.value = ""
         }else(
-           alert(`Hola, Este formulario de contacto es solo estético`) 
+           alert(`Hola, Este formulario de contacto es solo estético \n Mis redes sociales estan al final de la página`) 
         )
     }
 }
