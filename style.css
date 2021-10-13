@@ -414,8 +414,10 @@ nav{
     filter: invert();
     height: 50px;
 }
-.tw{
-    background: #55ACEE;
+.tkto{
+    filter: invert();
+    padding-left: 10px;
+    background: #FFF;
 }
 .fb{
     background: #3B5998;
